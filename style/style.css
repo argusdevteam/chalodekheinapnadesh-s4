@@ -1,0 +1,290 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(232,226,150,1) 100%);
+    font-family: 'Crimson Text', serif;
+    font-family: 'Unna', serif;
+    overflow-x: hidden;
+}
+.top-nav{
+    background: rgb(251,208,87);
+    background: radial-gradient(circle, rgba(251,208,87,1) 0%, rgba(198,145,73,1) 100%);
+}
+.dropdown-background{
+    background: rgb(251,208,87);
+    background: radial-gradient(circle, rgba(251,208,87,1) 0%, rgba(198,145,73,1) 100%);
+}
+.brand-logo{
+    height: 60px;
+}
+.live-tv-btn{
+    background: rgb(232,9,11);
+    color: #fff;
+    font-weight: bold;
+}
+button.navbar-toggler.togglor-icon i {
+    font-size: 17px;
+    color: #fff;
+    background-color: #ec080a;
+    padding: 7px;
+    border-radius: 6px;
+}
+.togglor-icon{
+    color: #333;
+}
+
+.sponcer-logo{
+    background-color: #fff;
+    border-left: 1px solid #333;
+}
+.sponcer-logo img{
+    height: 100px;
+    width: 150px;
+}
+.sponcer-row{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.mobile-sponcer-row{
+    display: none;
+}
+.know-more-button{
+    border: 2px solid #dead4f;
+    font-weight: bold;
+    color: #e40a0f;
+}
+.live-tv-section iframe{
+    height: 519px;
+}
+.live-tv-text{
+    text-align: justify;
+}
+.shoots-section-col iframe{
+    width: 100%;
+    height: 370px;
+}
+.shoots-heading{
+    border-bottom: 1px solid #b38632;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.shoots-heading h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #b38632;;
+}
+.season-details-col h2{
+    text-transform: uppercase;
+    border-bottom: 2px solid #b38632;
+    font-size: 23px;
+}
+.session-description h3{
+    text-transform: uppercase;
+}
+.videos-section-col iframe{
+    width: 100%;
+    height: 220px;
+}
+.gallery-btn-group{
+   margin-bottom: 40px; 
+}
+.gallery-btn{
+    font-size: 8px;
+    background: rgb(251,208,87);
+    background: radial-gradient(circle, rgba(251,208,87,1) 0%, rgba(198,145,73,1) 100%);
+    color: #fff;
+
+}
+.image-sec {
+    display: inline-block;
+    width: 100%;
+}
+.read-more-button {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: fit-content;
+    background: radial-gradient(circle, rgba(251,208,87,1) 0%, rgba(198,145,73,1) 100%);
+    margin-bottom: 20px;
+}
+.read-more-button:hover{
+    text-decoration: none;
+    color: #333;
+}
+.read-mores{
+    color: #000;
+    text-decoration: none;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    /* min-height: 1px; */
+    padding: 1.25rem;
+    height: 214px;
+    overflow: hidden;
+}
+.article-image img{
+    width: 100%;
+    height: 178px;
+}
+.atricle-text h1{
+    font-size: 18px;
+}
+.atricle-text p{
+    font-size: 15px;
+}
+.article-footer{
+    background: rgb(251,208,87);
+    background: radial-gradient(circle, rgba(251,208,87,1) 0%, rgba(198,145,73,1) 100%);
+    font-weight: bold;
+    color: #fff;
+}
+.article-footer a{
+    text-decoration: none;
+}
+.footer-col img{
+    width: 100%;
+}
+
+.footer-social-media-icon ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.footer-social-media-icon ul li{
+    float: left;
+    padding-left: 20px;
+}
+.footer-social-media-icon ul li a{
+    color: #fff;
+}
+.footer-social-media-icon ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ABOUT US PAGE DESIGN  */
+.about-argus-news-col img{
+    width: 350px;
+}
+.about-social-icon-btn{
+    background: transparent;
+    border: 2px solid #b38632;
+    color: #000000;
+}
+.challenges-header{
+    border-left: 1px solid #b38632;
+    border-right: 1px solid #b38632;
+    border-bottom: 1px solid #b38632;
+}
+.challenges-header h3{
+    font-size: 20px;
+}
+.challenges-body{
+    height: 200px;
+    border-right: 1px solid #b38632;
+    border-left: 1px solid #b38632;
+    background-color: transparent;
+}
+
+/* ======================================================================================================================================= */
+
+
+/* Responsive Design for Tablet Device */
+@media screen and (max-width: 768px){
+    .sponcer-logo img{
+        width: 90px;
+        height: 60px;
+    }
+    .live-tv-section iframe{
+        height: 419px;
+    }
+    
+    .shoots-section-col iframe{
+        width: 100%px;
+        height: 370px;
+    }
+    .story-section{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+/* ========================================================================================================================================== */
+
+/* Responsive Design for Mobile device  */
+@media screen and (max-width: 390px){
+    .sponcer-logo img{
+        width: 90px;
+        height: 60px;
+    }
+    .sponcer-row{
+        display: none;
+    }
+    .mobile-sponcer-row{
+        display: block;
+        background-color: #fff;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .mobile-sponcer-col ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        background-color: #fff;
+    }
+    .mobile-sponcer-col{
+        width: 100%;
+        background-color: #fff;
+        overflow: auto;
+    }
+    .mobile-sponcer-col ul li{
+        float: left;
+        text-align: center;
+        width: 20%;
+    }
+    .mobile-sponcer-col ul li img{
+        height: 40px;
+    }
+    .live-tv-section iframe{
+        height: 300px;
+    }
+    .live-tv-section h3{
+        font-size: 20px;
+    }
+    .shoots-section-col iframe{
+        width: 290px;
+        height: 370px;
+    }
+    .story-section{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+   
+    
+}
+
+
+/* Photo Galley Design  */
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+      float: left;
+      width: 25%;
+      max-width: 100%;
+    }
+  }
+  
+  .carousel-multi-item-2 .card img {
+    border-radius: 2px;
+  }
